@@ -1,0 +1,12 @@
+{
+  "name": "chapter2",
+  "version": "1.0.0",
+  "description": "- Everything that is external to the application is running in background and when ready it goes back to the event loop and to the application itself.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
