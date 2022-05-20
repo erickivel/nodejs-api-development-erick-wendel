@@ -17,6 +17,6 @@ docker exec -it erick-wendel-postgres bin/bash
 docker run \
   --name erick-wendel-adminer \
   -p 8080:8080 \
-  --link erick-wendel-postgres:erick-wendel-postgres
+  --link erick-wendel-postgres:erick-wendel-postgres \
   -d \
-  postgres
+  adminer
