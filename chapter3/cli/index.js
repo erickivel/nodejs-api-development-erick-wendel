@@ -10,7 +10,7 @@ async function main() {
     .option('-i, --id [value]', "Hero id")
 
     .option('-r, --register', "Register a hero")
-    .option('-l, --list', "List all heros")
+    .option('-l, --list', "List all heroes")
     .option('-e, --remove', "Remove a hero by id")
     .option('-u, --update [value]', "Update a hero by id")
     .parse(process.argv)

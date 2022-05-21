@@ -14,7 +14,7 @@ const DEFAULT_ITEM_UPDATE = {
 }
 
 
-describe('manipulation heros suite', () => {
+describe('manipulation heroes suite', () => {
   before(async () => {
     await database.register(DEFAULT_ITEM_REGISTER);
     await database.register(DEFAULT_ITEM_UPDATE);

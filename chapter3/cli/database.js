@@ -6,11 +6,11 @@ const readFileAsync = promisify(readFile);
 const writeFileAsync = promisify(writeFile);
 
 // Another way to get json data:
-// const jsonData = require('./heros.json');
+// const jsonData = require('./heroes.json');
 
 class Database {
   constructor() {
-    this.FILE_NAME = 'heros.json'
+    this.FILE_NAME = 'heroes.json'
   }
 
   async getFileData() {
