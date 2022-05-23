@@ -4,7 +4,7 @@ const { Sequelize, DataTypes } = require('sequelize');
 const driver = new Sequelize(
   'heroes',
   'erickivel',
-  'mysecretpass',
+  'supersecret',
   {
     host: 'localhost',
     dialect: 'postgres',
@@ -36,6 +36,10 @@ async function main() {
   })
 
   await Heroes.sync()
+  await Heroes.create({
+    name: 'Green Lantern',
+    power: "Ring",
+  })
   const result = await Heroes.findAll({ raw: true });
 
   console.log(result);
