@@ -13,5 +13,8 @@
     "pg": "^8.7.3",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.19.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0"
   }
 }
